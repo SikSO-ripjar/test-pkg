@@ -12,9 +12,10 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v3
-      - name: build and pack
+      - name: build
         run: yarn build
-      - run: yarn pack --out /artifacts/artifact.tgz
+      - name: pack
+        run: yarn pack --out /artifacts/artifact.tgz
       - uses: ncipollo/release-action@v1
         with:
           artifacts: "/artifacts/artifact.tgz"

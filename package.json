@@ -5,6 +5,9 @@
   "repository": "git@github.com:SikSO-ripjar/test-pkg.git",
   "author": "Sik So <sik.so@ripjar.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "dependencies": {
     "typescript": "4"
   }

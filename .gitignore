@@ -103,3 +103,4 @@ jspm_packages/
 .vscode
 .DS_Store
 types/
+dist/

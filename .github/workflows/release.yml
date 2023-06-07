@@ -20,3 +20,4 @@ jobs:
         with:
           artifacts: "/artifacts/artifact.tgz"
           name: eman
+          tag: tg

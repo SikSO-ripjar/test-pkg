@@ -20,4 +20,5 @@ jobs:
         with:
           artifacts: "/artifacts/artifact.tgz"
           name: eman
+          commit: main
           tag: tg

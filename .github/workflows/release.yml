@@ -21,4 +21,4 @@ jobs:
           artifacts: "/artifacts/artifact.tgz"
           name: eman
           commit: main
-          tag: tg
+          # tag: tg

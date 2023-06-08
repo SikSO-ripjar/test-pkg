@@ -16,9 +16,12 @@ jobs:
         run: yarn build
       - name: pack
         run: yarn pack --out /artifacts/artifact.tgz
-      - uses: ncipollo/release-action@v1
-        with:
-          artifacts: "/artifacts/artifact.tgz"
-          name: eman
-          commit: main
+      - name: majkrzak/create-release
+        uses: majkrzak/create-release@latest
+
+      # - uses: ncipollo/release-action@v1
+      #   with:
+      #     artifacts: "/artifacts/artifact.tgz"
+      #     name: eman
+      #     commit: main
           # tag: tg
